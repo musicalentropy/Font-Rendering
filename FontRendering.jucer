@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="G9ViBw" name="FontRendering" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.FontRendering" includeBinaryInAppConfig="1"
+              jucerVersion="3.1.1">
+  <MAINGROUP id="Lf252w" name="FontRendering">
+    <FILE id="GxIrYO" name="FontRChangelog.txt" compile="0" resource="0"
+          file="FontRChangelog.txt"/>
+    <GROUP id="{C2A5A82B-7655-458E-C1E3-DBDFB89CC312}" name="Source">
+      <FILE id="hPCrEH" name="ColourLibraryManager.cpp" compile="1" resource="0"
+            file="Source/ColourLibraryManager.cpp"/>
+      <FILE id="bfO4RG" name="ColourLibraryManager.h" compile="0" resource="0"
+            file="Source/ColourLibraryManager.h"/>
+      <FILE id="kvN0qt" name="CustomLookAndFeel.cpp" compile="1" resource="0"
+            file="Source/CustomLookAndFeel.cpp"/>
+      <FILE id="MMrDOr" name="CustomLookAndFeel.h" compile="0" resource="0"
+            file="Source/CustomLookAndFeel.h"/>
+      <FILE id="zOAS5A" name="TextContentGenerator.cpp" compile="1" resource="0"
+            file="Source/TextContentGenerator.cpp"/>
+      <FILE id="J1KxrO" name="TextContentGenerator.h" compile="0" resource="0"
+            file="Source/TextContentGenerator.h"/>
+      <FILE id="QUp42b" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="Y1YlEy" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="JxSERF" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2008 targetFolder="Builds/VisualStudio2008">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="3" generateManifest="1" isDebug="1"
+                       optimisation="1" targetName="FontRendering"/>
+        <CONFIGURATION name="Release" winWarningLevel="3" generateManifest="1" isDebug="0"
+                       optimisation="3" targetName="FontRendering"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="C:/SDK/juce-3.1.1/modules"/>
+        <MODULEPATH id="juce_events" path="C:/SDK/juce-3.1.1/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/SDK/juce-3.1.1/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/SDK/juce-3.1.1/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/SDK/juce-3.1.1/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/SDK/juce-3.1.1/modules"/>
+        <MODULEPATH id="juce_opengl" path="C:/SDK/juce-3.1.1/modules"/>
+      </MODULEPATHS>
+    </VS2008>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="1" optimisation="1" targetName="FontRendering"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="3" targetName="FontRendering"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_opengl" path="/Library/juce-3.1.1/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="/Library/juce-3.1.1/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="/Library/juce-3.1.1/modules"/>
+        <MODULEPATH id="juce_graphics" path="/Library/juce-3.1.1/modules"/>
+        <MODULEPATH id="juce_events" path="/Library/juce-3.1.1/modules"/>
+        <MODULEPATH id="juce_data_structures" path="/Library/juce-3.1.1/modules"/>
+        <MODULEPATH id="juce_core" path="/Library/SDK/juce-3.1.1/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_USE_DIRECTWRITE="disabled" JUCE_WEB_BROWSER="disabled" JUCE_ENABLE_LIVE_CONSTANT_EDITOR="disabled"/>
+</JUCERPROJECT>

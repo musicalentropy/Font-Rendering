@@ -1,0 +1,35 @@
+Font Rendering Changelog
+---------------------------------------------------------------------------------------
+
+
+0.0.2 (12/05/15)
+---------------------------------------------------------------------------------------
+- New : Font Rendering options in a ComboBox
+- New : OpenGL capabilities (after having updated my Intel Graphical Chip manually)
+- New : support for DirectWrite on Windows 7 (if JUCE_USE_DIRECTWRITE is defined)
+- New : support for both Software Renderer and CoreGraphics Renderer on Mac OS X
+- New : Extra Kerning and Horizontal Scale Combo
+- New : support for Font files loading
+- New : height of Fonts in points 
+- Changed : names of the controls in the ComboBoxes popup menus
+- Changed : dropped underlined style support
+- Note : dropped support for now for CPL Subpixel / FreeType / Direct2D
+
+
+0.0.1 (09/05/15)
+---------------------------------------------------------------------------------------
+- Initial version
+- New : TextContentGenerator class with various method returning more or less random
+strings to feel space, with Lorem Ipsum, ASCII characters and the Quick Brown Fox 
+famous sentences.
+- New : Text drawing method which puts justified horizontally and vertically text into 
+a specific bounded box
+- New : Justification ComboBox
+- New : Font Height ComboBox
+- New : Font Name ComboBox
+- New : Content ComboBox
+- New : the application window is resizeable
+- New : bold / italic / underlined styles with ToggleButtons
+- New : background and text colour ComboBoxes
+- New : Justification with all the width space being used (already in JUCE !)
+
