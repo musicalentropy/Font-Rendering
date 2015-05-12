@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{5397A1C8-9BB9-C602-AE6B-30B68B97EC4F}") = "FontRendering", "FontRendering.vcproj", "{2F155905-EF70-A902-FCCC-F4BA250EC482}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F155905-EF70-A902-FCCC-F4BA250EC482}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2F155905-EF70-A902-FCCC-F4BA250EC482}.Debug|Win32.Build.0 = Debug|Win32
+		{2F155905-EF70-A902-FCCC-F4BA250EC482}.Release|Win32.ActiveCfg = Release|Win32
+		{2F155905-EF70-A902-FCCC-F4BA250EC482}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
