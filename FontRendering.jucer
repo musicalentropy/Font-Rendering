@@ -2,7 +2,7 @@
 
 <JUCERPROJECT id="G9ViBw" name="FontRendering" projectType="guiapp" version="1.0.0"
               bundleIdentifier="com.yourcompany.FontRendering" includeBinaryInAppConfig="1"
-              jucerVersion="3.1.1">
+              jucerVersion="4.0.1">
   <MAINGROUP id="Lf252w" name="FontRendering">
     <FILE id="GxIrYO" name="FontRChangelog.txt" compile="0" resource="0"
           file="FontRChangelog.txt"/>
@@ -34,13 +34,13 @@
                        optimisation="3" targetName="FontRendering"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_core" path="C:/SDK/juce-3.1.1/modules"/>
-        <MODULEPATH id="juce_events" path="C:/SDK/juce-3.1.1/modules"/>
-        <MODULEPATH id="juce_graphics" path="C:/SDK/juce-3.1.1/modules"/>
-        <MODULEPATH id="juce_data_structures" path="C:/SDK/juce-3.1.1/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="C:/SDK/juce-3.1.1/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="C:/SDK/juce-3.1.1/modules"/>
-        <MODULEPATH id="juce_opengl" path="C:/SDK/juce-3.1.1/modules"/>
+        <MODULEPATH id="juce_core" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_events" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_opengl" path="C:/SDK/juce3/modules"/>
       </MODULEPATHS>
     </VS2008>
     <XCODE_MAC targetFolder="Builds/MacOSX">
@@ -51,15 +51,49 @@
                        isDebug="0" optimisation="3" targetName="FontRendering"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
-        <MODULEPATH id="juce_opengl" path="/Library/juce-3.1.1/modules"/>
-        <MODULEPATH id="juce_gui_extra" path="/Library/juce-3.1.1/modules"/>
-        <MODULEPATH id="juce_gui_basics" path="/Library/juce-3.1.1/modules"/>
-        <MODULEPATH id="juce_graphics" path="/Library/juce-3.1.1/modules"/>
-        <MODULEPATH id="juce_events" path="/Library/juce-3.1.1/modules"/>
-        <MODULEPATH id="juce_data_structures" path="/Library/juce-3.1.1/modules"/>
-        <MODULEPATH id="juce_core" path="/Library/SDK/juce-3.1.1/modules"/>
+        <MODULEPATH id="juce_opengl" path="/Library/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="/Library/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="/Library/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_graphics" path="/Library/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_events" path="/Library/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_data_structures" path="/Library/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_core" path="/Library/SDK/juce3/modules"/>
       </MODULEPATHS>
     </XCODE_MAC>
+    <VS2013 targetFolder="Builds/VisualStudio2013" toolset="v120">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="3" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="FontRendering"/>
+        <CONFIGURATION name="Release" winWarningLevel="3" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="FontRendering"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_opengl" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_events" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_core" path="C:/SDK/juce3/modules"/>
+      </MODULEPATHS>
+    </VS2013>
+    <VS2015 targetFolder="Builds/VisualStudio2015" toolset="v140">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="3" generateManifest="1" winArchitecture="x64"
+                       isDebug="1" optimisation="1" targetName="FontRendering"/>
+        <CONFIGURATION name="Release" winWarningLevel="3" generateManifest="1" winArchitecture="x64"
+                       isDebug="0" optimisation="3" targetName="FontRendering"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_opengl" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_graphics" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_events" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_data_structures" path="C:/SDK/juce3/modules"/>
+        <MODULEPATH id="juce_core" path="C:/SDK/juce3/modules"/>
+      </MODULEPATHS>
+    </VS2015>
   </EXPORTFORMATS>
   <MODULES>
     <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>

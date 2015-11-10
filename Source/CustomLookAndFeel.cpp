@@ -18,7 +18,8 @@ CustomLookAndFeel::~CustomLookAndFeel()
 }
 
 void CustomLookAndFeel::setDefaultLookAndFeelBaseColours()
-{	setLookAndFeelBaseColours(Colour (0xff001F36), Colours::white);
+{
+	setLookAndFeelBaseColours(Colour(0xff001F36), Colours::white);
 }
 
 void CustomLookAndFeel::setLookAndFeelBaseColours(Colour backgroundColour, Colour textColour)
@@ -40,6 +41,15 @@ void CustomLookAndFeel::setLookAndFeelBaseColours(Colour backgroundColour, Colou
 
 	setColour(TextButton::buttonColourId, backgroundColour);
 	setColour(ToggleButton::textColourId, textColour);
+
+	setColour(TextEditor::backgroundColourId, backgroundColour);
+	setColour(TextEditor::focusedOutlineColourId, backgroundColour);
+	//setColour(TextEditor::highlightColourId, backgroundColour);
+	setColour(TextEditor::highlightedTextColourId, textColour);
+	setColour(TextEditor::outlineColourId, textColour);
+	setColour(TextEditor::shadowColourId, backgroundColour);
+	setColour(TextEditor::textColourId, textColour);
+	setColour(CaretComponent::caretColourId, textColour);
 }
 
 void CustomLookAndFeel::drawComboBox (Graphics& g, int width, int height, const bool isButtonDown,

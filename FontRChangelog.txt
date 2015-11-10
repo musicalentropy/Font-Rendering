@@ -1,6 +1,19 @@
 Font Rendering Changelog
 ---------------------------------------------------------------------------------------
 
+Pending
+---------------------------------------------------------------------------------------
+- Pending : categorization of fonts (size, type) + tag research
+- Pending : auto-download fonts on Google
+- Pending : A/B comparisons
+
+
+0.0.3 (10/06/15)
+---------------------------------------------------------------------------------------
+- New : multi-columns display of text
+- New : double click on the text allows to change its content
+- Solved : issue with the removing of glyphs when the text to display is too long
+
 
 0.0.2 (12/05/15)
 ---------------------------------------------------------------------------------------
